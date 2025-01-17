@@ -14,6 +14,6 @@ Phase	Timeline	Key Activities
 4. Incremental Migration	Weeks 25–50	Migrate applications, data, and systems in prioritized batches, ensuring minimal service disruption.
 5. Post-Migration Support	Weeks 51–60	Monitor system performance, optimize workloads, troubleshoot issues, and gather stakeholder feedback.
 
-Cost Management: Ensure the cloud migration aligns with budget constraints, including upfront costs, ongoing operational expenses, and savings from optimization.
-Security and Compliance: The solution must meet robust security standards, comply with relevant regulations, and provide rapid incident response capabilities.
-Operational Impact: Minimize downtime and service disruptions, particularly during critical periods of service delivery.
+Ensure the cloud migration aligns with budget constraints, including upfront costs, ongoing operational expenses, and savings from optimization.
+The solution must meet robust security standards, comply with relevant regulations, and provide rapid incident response capabilities.
+ Minimize downtime and service disruptions, particularly during critical periods of service delivery.
