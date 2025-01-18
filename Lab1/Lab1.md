@@ -6,6 +6,21 @@ Inorder to get some idea regarding infrastructure of the company i would prefer 
 Waltham Forest Council which is trying sustain balancing continuity of service delivery and risk management of the company by using the different measures which includes
 Hybrid Migration technology involves maintaining critical operations on-premises while transitioning specific workloads to the cloud incrementally. Initial migrations on non-critical systems to refine processes.
 
+### RACI MATRIX
+| **Activity**                        | **Responsible (R)**        | **Accountable (A)**          | **Consulted (C)**               | **Informed (I)**               |
+|-------------------------------------|----------------------------|------------------------------|----------------------------------|---------------------------------|
+| **Cloud Migration Strategy**       | Cloud Architects           | CIO                          | IT Managers, Vendors            | Business Stakeholders          |
+| **Infrastructure Assessment**      | IT Operations Team         | Migration Project Manager    | Cloud Architects                | Business Units                 |
+| **Cloud Provider Selection**       | Procurement Team           | CTO                          | Cloud Architects, Vendors       | All Departments                |
+| **Planning and Pilot Testing**     | Migration Project Manager  | CIO                          | IT Operations Team, Microsoft   | End Users                      |
+| **User Training and Preparation**  | Change Management Lead     | HR Manager                   | Trainers, Department Heads      | Employees                      |
+| **Data and Application Migration** | IT Operations Team         | Migration Project Manager    | System Owners, Vendors          | Business Units                 |
+| **Migration Governance Setup**     | IT Compliance Team         | CTO                          | Legal, Microsoft                | Business Stakeholders          |
+| **Post-Migration Support**         | IT Support Team            | IT Director                  | Microsoft, System Owners        | End Users                      |
+| **Performance Monitoring**         | IT Operations Team         | IT Director                  | Vendors                         | Business Stakeholders          |
+
+
+
 
 Phase	Timeline	Key Activities
 1. Planning and Assessment	Weeks 1–8	Define goals
@@ -17,3 +32,4 @@ Phase	Timeline	Key Activities
 Ensure the cloud migration aligns with budget constraints, including upfront costs, ongoing operational expenses, and savings from optimization.
 The solution must meet robust security standards, comply with relevant regulations, and provide rapid incident response capabilities.
  Minimize downtime and service disruptions, particularly during critical periods of service delivery.
+
