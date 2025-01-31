@@ -12,7 +12,8 @@ The company is operating on in house components with following kind of key compo
 4. Networking
 5. Email Service
 
-![Lab3 Architecture](https://github.com/user-attachments/assets/aece4fb4-5ffa-4849-8987-17ef1bf3e1c1)
+![Lab4](https://github.com/user-attachments/assets/25d14d67-cca3-4d44-9533-c04f89d55211)
+
 
 # Section 2 Migration Strategy 
 
