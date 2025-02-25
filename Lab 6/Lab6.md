@@ -23,3 +23,29 @@
 4. Use GitHub Actions to deploy the backend and frontend code.
 
 ### Step 2: Migrate the Database to Azure SQL Database
+1. To migrate SQL Server to Azure SQL Database, use the Azure Database Migration Service.
+2. In the application settings, change the connection string.
+3. Improve performance tuning and indexes.
+
+### Step 3: Convert Background Jobs into Azure Functions
+
+1. Determine the background operations.
+2. Turn them into Azure Functions that are activated by:
+3. Queue Storage (processing messages).
+4. Use the Azure Functions App to deploy functions.
+
+### Step 4: Store Static Content and Logs in Azure Blob Storage
+1. Transfer the virtual machine's logs, pictures, and other static assets to Azure Blob Storage.
+2. To retrieve assets from the Blob Storage URL, update the application.
+3. Make use of the REST API or Azure Storage SDK in the application.
+
+### Step 5: Setting up Azure AD 
+
+1. Set up OAuth 2.0 authentication and register the application in Azure AD.
+2. Make the web application compatible with Azure AD authentication.
+3. Use Azure AD roles and JWT tokens to secure APIs.
+
+### Step 6: Monitoring & Logging (Azure Monitor)
+1. To enable real-time telemetry, enable Application Insights in Azure App Service.
+2. Set up Log Analytics to gather logs from applications.
+3. Configure notifications for malfunctions and performance problems.
