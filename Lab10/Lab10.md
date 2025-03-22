@@ -39,3 +39,33 @@ Application Landing Zones are purpose-built environments designed for specific a
 - Team-specific access policies
 - Specialized monitoring requirements
 
+
+#### When to use: 
+When implementing certain applications with particular demands, it is appropriate for isolated workloads with particular compliance requirements or for teams that require autonomy inside a regulated framework.
+
+### Analysis of Operating Models
+Decentralized Operating Model
+
+#### Characteristics: 
+Teams operate independently with high autonomy; minimal central governance
+#### Advantages: 
+- Rapid innovation
+- team ownership
+- reduced bottlenecks
+#### Disadvantages: 
+- Potential duplication
+- inconsistent standards
+- security challenges
+
+Centralized Operating Model
+
+#### Characteristics: 
+Central team controls cloud resources and services; standardized approach
+#### Advantages: 
+- Consistent implementation
+- optimized costs
+- centralized expertise
+#### Disadvantages: 
+- Potential bottlenecks
+- slower innovation
+- dependency on central team
