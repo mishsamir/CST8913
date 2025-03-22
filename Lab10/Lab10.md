@@ -15,3 +15,27 @@ A well-designed, pre-configured cloud environment known as a "Cloud Landing Zone
 - Automated: Leverages infrastructure as code for repeatability and consistency
 - Compliance-ready: Incorporates regulatory requirements into the design
 
+### Comparison of Landing Zone Types
+#### Platform Landing Zones
+
+Platform Landing Zones provide core shared services and infrastructure that multiple applications can leverage. They focus on establishing the foundational elements needed across the organization.
+
+#### Characteristics:
+- Centralized identity management
+- Network connectivity (hub-spoke models)
+- Security monitoring and controls
+- Shared services (logging, monitoring)
+- Governance policies
+
+#### When to use: 
+When building a comprehensive cloud foundation that will host multiple workloads; ideal for organizations at the beginning of their cloud journey needing a solid foundation.
+
+### Application Landing Zones
+Application Landing Zones are purpose-built environments designed for specific applications or workloads, often built on top of a Platform Landing Zone.
+#### Characteristics:
+- Application-specific configurations
+- Workload-optimized resources
+- Customized security controls
+- Team-specific access policies
+- Specialized monitoring requirements
+
