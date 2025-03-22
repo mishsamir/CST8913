@@ -57,7 +57,7 @@ Teams operate independently with high autonomy; minimal central governance
 - inconsistent standards
 - security challenges
 
-Centralized Operating Model
+### Centralized Operating Model
 
 #### Characteristics: 
 Central team controls cloud resources and services; standardized approach
@@ -69,3 +69,37 @@ Central team controls cloud resources and services; standardized approach
 - Potential bottlenecks
 - slower innovation
 - dependency on central team
+
+### Enterprise Operating Model
+
+#### Characteristics:
+Hybrid approach with central governance and local execution
+#### Advantages:
+- Balanced control and innovation
+- consistent standards with flexibility
+#### Disadvantages:
+- Complex coordination
+- potential role confusion
+- needs clear boundaries
+
+### Distributed Operating Model
+
+### Characteristics:
+Federated approach with central guardrails but distributed operations
+#### Advantages:
+- Scalability
+- local ownership with global standards
+- reduced central bottlenecks
+#### Disadvantages:
+- Requires mature governance
+- possible fragmentation
+- complex implementation
+
+### Best Model for Data Center Migration:
+#### The Enterprise Operating Model is most suitable for a complete data center migration because it:
+
+- Provides central oversight needed for a complex, large-scale migration
+- Allows specialized teams to handle different aspects of the migration
+- Enables standardization of common patterns while allowing flexibility for unique workloads
+- Balances speed and control through clearly defined responsibilities
+- Supports long-term governance while accommodating immediate migration needs
