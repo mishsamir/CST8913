@@ -31,3 +31,55 @@
   - Conduct review sessions with stakeholders to verify assessment accuracy.
   - Perform cost estimation analysis based on Azure Pricing Calculator.
   - Test workload simulation in a sandbox environment
+### Dependency Analysis and Optimization.
+- Dependency Mapping:
+  - Agentless: Use Azure Migrate dependency analysis for non-intrusive mapping.
+  - Agent-based: Install monitoring agents on critical systems if deeper insights are needed
+- Cleaning Dependency Data:
+   - Filter out system-generated dependencies (e.g., DNS, Active Directory traffic).
+   - Identify and map true application dependencies.
+   - Define critical pathways to avoid single points of failure.
+- Key Metrics for Migration Planning:
+  - Criticality: Database (most critical), followed by API, frontend, and caching.
+  - User base: Prioritize based on active usage patterns.
+  - Backups: Implement daily backups with Azure Backup for data integrity.
+### Server Grouping and Migration Waves
+- Logical Server Grouping:
+  - Frontend (NGINX Web Servers)
+  - Backend (Node.js API Servers)
+  - Database (PostgreSQL)
+  - Caching Layer (Redis)
+  - Load Balancer & DNS Updates
+- Migration Waves:
+  - Wave 1: Deploy Azure infrastructure, networking, and security policies
+  - Wave 2: Migrate Redis & Database to Azure services (Azure Database for PostgreSQL, Azure Cache for Redis)
+  - Wave 3: Migrate Backend API servers, validate functionality
+  - Wave 4: Migrate Frontend NGINX servers, finalize cutover
+  - Wave 5: Update HAProxy-based Load Balancer with Azure Front Door / Azure Load Balancer
+- Precautions:
+  - Configure Azure Firewall and NSG rules before migration
+  - Verify Azure Load Balancer settings for routing traffic correctly
+  - Ensure IP address changes are propagated via DNS updates
+### Migration Plan Documentation
+- Step-by-Step Migration Plan:
+- Pre-Migration Preparations:
+  - Provision Azure Virtual Network (VNET) and Subnets
+  - Set up security groups, firewall, and access policies
+  - Deploy Azure Database for PostgreSQL and Azure Cache for Redis
+  - Sync on-prem PostgreSQL to Azure PostgreSQL using Azure Database Migration Service
+- Data Migration & Application Setup:
+  - Migrate database using Azure Database Migration Service
+  - Migrate Redis cache to Azure Cache for Redis
+  - Deploy and test backend Node.js API servers in Azure VM Scale Sets
+  - Deploy and test frontend NGINX web servers in Azure App Service or Azure VMs
+- Final Cutover:
+  - Perform final database sync.
+  - Redirect HAProxy Load Balancer traffic to Azure Front Door.
+  - Update DNS records to point to Azure-hosted application.
+  - Perform post-migration testing
+- Validation & Optimization:
+  - Validate application functionality with stakeholders
+  - Monitor system performance via Azure Monitor
+  - Configure auto-scaling for web and API servers
+  - Set up daily backups and disaster recovery plan
+
